@@ -1,0 +1,303 @@
+
+/*corpo*/
+body {
+    font-family: Nunito, sans-serif;
+    color: black;
+    background: #149c68;
+}
+h1, h2, h3{
+    font-family: Asap, sans-serif;
+    color: black;
+}
+
+/*nav*/
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#2fb8ac;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: yellowtail, serif;
+}
+
+nav ul {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul li a:hover{
+    color: #93a42a;
+    border-bottom: 1px solid #93a42a;
+}
+
+/*cabeçalho*/
+header{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-image: url("../img/animais.jpg");
+max-width: 1900px;
+  height: 600px;
+  opacity: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center;
+color:#ffffff;
+text-align: center;
+padding: 20px;
+}
+
+header a {
+    padding:10px 30px;
+    background-color:#2fb8ac ;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: .9em;
+    border-radius: 3px;
+
+}
+
+header h1{
+    color: white;
+    text-shadow: Xpx Ypx blur color #000524 ;
+}
+
+header p {
+    margin-bottom: 2rem;
+    font-size: 25px;
+}
+.botao {
+    padding:10px 30px;
+    background:#2fb8ac ;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+
+/*inicio do sobre*/
+#Sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px 35px 30px;
+    background: #7fc7af;
+    color:#ffffff
+}
+
+#Sobre h2 {
+color: #ffffff;
+}
+
+
+/*Inicio da parte trabalho*/
+#Trabalhos{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+}
+
+#Trabalhos div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#Trabalhos div img{
+max-width: 200px;
+height: 100px;
+}
+
+.NssTrabalho a{
+   
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+ }
+ .NssTrabalho a:hover{
+    color: black;
+ }
+
+
+#Trabalhos{
+   display: flex;
+   flex-direction: row;
+   align-items: auto;
+   padding: 30px;
+}
+
+#Trabalhos div{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-top: 30px;
+   flex-grow: 1;
+   flex-basis: 150px;
+   padding: 0 10px;
+}
+ #Trabalhos h3 {
+    color: #ffffff;
+}
+
+#Trabalhos p {
+    color: #ffffff;
+}
+
+
+/*Inicio das fotos*/
+
+.text_fotos{
+    text-align: center;
+    width: 100%;
+ }
+ 
+ .gallery-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     gap: 2vw;
+     padding: 0 2vw;
+ }
+ .gallery-items{
+     width: 440px;
+     height: 340px;
+     border: 10px solid #046d8b;
+     box-shadow: 5px 5px 5px #1e2528;
+     flex-grow: 1;
+     transition: transform .5s linear;
+ }
+ .gallery-items img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ 
+ .gallery-items:hover{
+     transform: scale(1.1);
+ }
+ 
+ 
+ /*Inicio de contatos*/
+ 
+ #contato {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+ 
+ }
+
+
+.Cont, h2, p {
+            text-decoration: none;
+            color: white;
+             display: flex;
+            flex-direction: column;
+           text-align: center;
+           }
+
+           #Contato{
+        display: flex;
+        flex-direction: row;
+        align-items: auto;
+        padding: 10px;
+     }
+     
+
+     #Contato div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    flex-grow: 1;
+
+
+    } 
+
+
+    
+   
+     #Contato div img{
+        max-width: 100px;
+        height: 50px;
+     }
+
+        
+           #Contato a:link {
+            text-decoration: none;
+          }
+          #Contato a:link, a:visited {
+            background-color: #2fb8ac;
+            color: white;
+            padding: 14px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+          }
+          
+         #Contato a:hover, a:active {
+            background-color: #7fc7af;
+          }
+            
+          
+          
+          /*Rodapé */
+
+          footer {
+            align-items: center;
+          }
+
+          footer a:link, a:visited {
+            background-color: #2fb8ac;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+          }
+          footer a:hover, a:active {
+            background-color: #7fc7af;
+          }
+          
+          footer {
+            line-height: 20px;
+            height: 10px;
+            text-align: center;
+            color: white;
+          }
+
+          /*fim do CSS*/
